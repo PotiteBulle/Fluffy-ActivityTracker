@@ -2,7 +2,7 @@
 Fluffy-ActivityTracker est un bot Discord qui analyse l'activité des utilisateur·rice·s sur un serveur. Il permet de déterminer si un·e utilisateur·rice a été actif·ve (en envoyant au moins un message) depuis son entrée sur le serveur, et enregistre chaque message dans un fichier JSON individuel pour chaque utilisateur·rice·s.
 
 # [Avertissement](https://support.discord.com/hc/en-us/articles/18210965981847-Discord-Warning-System#h_01HD4SVGAFZKN50P6BHNPPFFR0)
-### **Ce projet est destiné à des fins éducatives et de recherche. Veuillez respecter la vie privée des utilisateur·rice·s et les règles de Discord lorsque vous utilisez un bot.**
+### **Ce projet est destiné à des fins éducatives et de recherche. Veuillez respecter la vie privée des utilisateur·rice·s et les règles de Discord lorsque vous utilisez des scripts.**
 
 
 ## Fonctionnalités
