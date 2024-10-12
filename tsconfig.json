@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Enable latest features
+    "lib": ["ESNext", "DOM"], // Inclut les bibliothèques ESNext et DOM
+    "target": "ESNext", // Cible la version la plus récente d'ECMAScript
+    "module": "ESNext", // Utilise le système de modules ESNext
+    "moduleDetection": "force", // Force la détection des modules
+    "jsx": "react-jsx", // Utilise le nouveau mode JSX de React 17+
+    "allowJs": true, // Permet d'importer des fichiers JavaScript
+
+    // Bundler mode
+    "moduleResolution": "bundler", // Résolution des modules adaptée aux outils de bundling
+    "allowImportingTsExtensions": true, // Permet d'importer des fichiers avec des extensions TypeScript
+    "verbatimModuleSyntax": true, // Ne modifie pas la syntaxe des modules lors de la sortie
+    "noEmit": true, // Ne génère pas de fichiers de sortie
+
+    // Best practices
+    "strict": true, // Active toutes les vérifications de type strictes
+    "skipLibCheck": true, // Ignore la vérification des types dans les fichiers de bibliothèque
+    "noFallthroughCasesInSwitch": true, // Interdit les cas de "fallthrough" dans les switch
+
+    // Some stricter flags (disabled by default)
+    "noUnusedLocals": false, // Ne signale pas les variables locales inutilisées
+    "noUnusedParameters": false, // Ne signale pas les paramètres inutilisés
+    "noPropertyAccessFromIndexSignature": false // Permet d'accéder aux propriétés via une signature d'index
+  }
+}
