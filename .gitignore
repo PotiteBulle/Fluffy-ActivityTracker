@@ -1,0 +1,24 @@
+# Fichiers et dossiers Node.js
+node_modules/
+bun.lockb
+
+# Fichiers d'environnement
+.env
+
+# Dossier de sortie pour les fichiers générés
+Users/
+
+# Logs de Bun
+bunfig.toml
+
+# Fichiers de compilation TypeScript
+dist/
+build/
+
+# Fichiers temporaires de l'éditeur
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+*.vscode/
